@@ -1,0 +1,31 @@
+{
+    "name": "cre/clock",
+    "description": "This is Test package Clock",
+    "type": "package",
+    "license": "MIT",
+    "version": "1.0",
+    "keywords": ["laravel","clock","cre"],
+    "authors": [
+        {
+            "name": "Rashed Al-sayagih",
+            "email": "rashid201143@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"=>8.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cre\\Clock\\ClockProv\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cre\\Clock\\ClockProv\\Providers\\ClockProvidr"
+            ],
+            "aliases": { }
+        }
+    },
+    "minimum-stability": "dev"
+}
