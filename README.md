@@ -4,8 +4,9 @@ This is Test package Clock
 #installation
 
 Run This Command On Your Composer
-
-' composer require cre/clock:dev-main '
+```bash
+ composer require cre/clock:dev-main
+```
 
 after Completed to download package open your app.php file from this path ` config/app.php`
 
