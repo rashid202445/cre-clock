@@ -11,9 +11,7 @@
             "email": "rashid201143@gmail.com"
         }
     ],
-    "require": {
-        "php":"=>8.7"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Cre\\Clock\\": "src/"
