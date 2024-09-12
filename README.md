@@ -5,3 +5,4 @@ This is Test package Clock
 
 Run This Command On Your Composer
 ' composer require --dev brianium/paratest '
+`--help`
