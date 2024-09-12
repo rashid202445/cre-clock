@@ -16,16 +16,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Cre\\Clock\\ClockProv\\": "src/"
+            "Cre\\Clock\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Cre\\Clock\\ClockProv\\Providers\\ClockProvidr"
-            ],
-            "aliases": { }
-        }
-    },
+
     "minimum-stability": "dev"
 }
